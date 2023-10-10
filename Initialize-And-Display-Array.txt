@@ -1,0 +1,19 @@
+ALGORITHME RemplirEtAfficherTableau
+
+
+VARIABLES 
+    Tableau T(10) : Entier
+    i : Entier
+
+DEBUT
+
+    POUR i <-- 0 à 9 pas 1 FAIRE
+        T(i) <-- 0
+    FIN POUR
+
+    
+    POUR i<-- 0 à 9 pas 1 FAIRE
+        ECRIRE T(i)
+    FIN POUR
+
+FIN
